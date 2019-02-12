@@ -1,0 +1,111 @@
+
+.skills-m {
+  
+  background-color: rgba(51, 51, 51, 0.815);
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  height: 400px;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.bar-m {
+  display: block;
+  height: 4px;
+  width: 100%;
+  box-shadow: 0 0 10px #2187e7b3;
+  float: left;
+}
+
+.Html-m {
+  float: left;
+  height: 4px;
+  background-color: lightgreen;
+  animation: html 2s 0s;
+  width: 90%;
+}
+.Css-m {
+  float: left;
+  height: 4px;
+  background-color: lightgreen;
+  width: 81%;
+  animation: css 4s 0s;
+}
+.JavaScript-m {
+  float: left;
+  height: 4px;
+  background-color: lightgreen;
+  width: 69%;
+  animation: js 6s 0s;
+}
+.JQuery-m {
+  float: left;
+  height: 4px;
+  background-color: lightgreen;
+  width: 66%;
+  animation: jq 8s 0s;
+}
+.React-m {
+  float: left;
+  height: 4px;
+  background-color: lightgreen;
+  width: 45%;
+  animation: react 9s 0s;
+}
+.Nodejs-m {
+  float: left;
+  height: 4px;
+  background-color: lightgreen;
+  width: 70%;
+  animation: node 6s 0s;
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 81%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 69%;
+  }
+}
+@keyframes jq {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 66%;
+  }
+}
+@keyframes  react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
